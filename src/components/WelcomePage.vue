@@ -17,7 +17,7 @@
   
 <style>
 .container {
-  background: linear-gradient(to bottom, #FFC0CB, #FF5733); /* Adjust colors as needed */
+  background: linear-gradient(to bottom, #FFC0CB, #FF5733);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
