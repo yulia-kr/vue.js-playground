@@ -22,8 +22,7 @@ export default {
 				alert('Please enter a valid name with alphabetic characters only.');
 				return;
 			}
-
-			// Emit the usernameEntered event if the name is valid
+			
 			this.$emit('usernameEntered', this.username);
 		}
 	}
@@ -32,7 +31,7 @@ export default {
 
 <style>
 .container {
-  background: linear-gradient(to bottom, #FFC0CB, #FF5733); /* Adjust colors as needed */
+  background: linear-gradient(to bottom, #FFC0CB, #FF5733); 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
